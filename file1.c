@@ -1,0 +1,1 @@
+#include<stdio.h>//Thisisasimplecprogramintsum(inta,intb){intresult=a+b;returnresult;}intmain(){inta=5,b=10;/*Nowwewilldisplaythevaluesofthesevariables.*/printf("a=%dandb=%d",a,b);printf("\nThesumis%d",sum(a,b));return0;}

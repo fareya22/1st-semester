@@ -1,0 +1,92 @@
+#include<bits/stdc++.h>
+#include "cfg_gemerate.cpp"
+using namespace std;
+
+void createAdjacencyList(const vector<vector<int>>& matrix, vector<vector<int>>& adjList) {
+  int numNodes = matrix.size();
+  adjList.resize(numNodes);
+
+  for (int i = 0; i < numNodes; ++i) {
+    for (int j = 0; j < numNodes; ++j) {
+      if (matrix[i][j] == 1) {
+        adjList[i].push_back(j+1);
+      }
+    }
+  }
+}
+
+
+
+
+int main(){
+
+    cfg();
+
+  /* int mat[100][100];
+
+      for(int i=0;i<=totalLine;i++){
+        for(int j=0;j<=totalLine;j++){
+            mat[i][j]=0;
+        }
+      }
+
+      for ( int i = 1; i <= totalLine; ++i )
+      {
+        int a=edge[i][0];
+       // cout<<a<<"\n";
+        int b=edge[i][1];
+      //  cout<<b<<"\n";
+
+        mat[a][b]=1;
+      }
+
+   /*   for(int i=1;i<=totalLine;i++){
+        for(int j=0;j<=totalLine;j++){
+            if(mat[i][j]!=0)cout<<mat[i][j]<<" ";
+        }
+        cout<<"\n";
+      }*/
+
+  scoping(1, totalLine);
+
+  controlFlowGraphEdgeCreate(1, totalLine);
+
+  int maxNodes = totalLine;
+  vector<vector<int>> matrix(maxNodes, vector<int>(maxNodes, 0));
+
+  for (int i = 1; i <= maxNodes; ++i) {
+    for (int j = 0; j < edge[i].size(); ++j) {
+      int dest = edge[i][j];
+      matrix[i - 1][dest - 1] = 1;
+    }
+  }
+
+  cout << "The adjacency matrix representing the graph:\n";
+  for (int i = 0; i < maxNodes; ++i) {
+    for (int j = 0; j < maxNodes; ++j) {
+      cout << matrix[i][j] << " ";
+    }
+    cout << endl;
+  }
+
+  vector<vector<int>> adjList;
+ createAdjacencyList(matrix, adjList);
+
+cout << "The adjacency list representing the graph:\n";
+for (int i = 0; i < adjList.size(); ++i) {
+  cout << i+1 << ": ";
+  for (int j = 0; j < adjList[i].size(); ++j) {
+    cout << adjList[i][j] << " ";
+  }
+  cout << endl;
+}
+}
+
+
+
+
+
+
+
+
+

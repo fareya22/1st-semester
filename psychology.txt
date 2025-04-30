@@ -1,0 +1,31 @@
+Perceptual organization refers to the way information is received 
+by our senses and interpreted to make it meaningful. A lot of what 
+we know about perceptual organization comes from Gestalt psychology.
+ Gestalt psychologists believe that the human brain perceives a stimulus
+ as a whole and not as the sum of its parts.
+
+Although research shows perceptual organization applies to all the
+ senses, it has been most studied for visual perception. 
+ Visual perception is a process of grouping the elements
+ of an object together to determine the meaning of the object as a whole.
+
+Major features of perceptual organization are:
+
+Form perception, which allows us to recognize shapes and patterns.
+Depth and distance perception, which is the ability to judge the distance between objects.
+Motion perception, which is the way we interpret the speed and direction of moving objects.
+Perceptual constancy, which is the tendency to see objects as unchanging (constant) in shape even when the environment changes.
+
+These features of perceptual organization allow us to make sense of 
+visual stimuli and so determine the meaning of the objects in our 
+environment. It is possible to lead others to a desired conclusion
+ using the theory of perceptual organization.
+ An understanding of how perceptual organization works is important in many fields, including graphic design. Designers use this knowledge to create images that lead others to interpret the images they create in a certain way. Forecasters look for the patterns in weather data to help them forecast the weather. Marketers use an understanding of how humans interpret what they see in their efforts to persuade them to purchase a particular product, for example, with a TV commercial that influences how a consumer thinks about the product. Leaderboards, used to track scores and rank players in a competition, are another example of how grouping data can help us to quickly understand information.
+ Perceptual organization theory is based on five rules or principles.
+
+Proximity—we tend to perceive objects that are close to each other as a group.
+Similarity—in this example of similarity, instead of six rows of circles, we tend to see three rows of black circles and three rows of white circles.
+Continuity—the eye tends to follow lines; for example, in the image below we're more likely to perceive two overlapping lines rather than four lines meeting in the center.
+Closure—if someone draws a circle but leaves the circle open you will see the figure as a circle before you notice it has been left incomplete. This is also called the principle of simplicity.
+
+Connectedness—we tend to group elements that are connected to each other with lines, shapes, or colors as a single unit.

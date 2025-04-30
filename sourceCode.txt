@@ -1,0 +1,7 @@
+
+    int x =23;
+    if(x%2 == 0)
+        printf("X is even");
+    else
+        printf("X is odd");
+
